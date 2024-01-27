@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiv Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0aa3bfc3c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+     <div class="container">
+        <nav>
+            <div></div>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I am <span>Shiv</span></h1>
+            <P>MERN stack Developer</P>
+            <p id="sub-title">I'm an <span>Enthusiastic UI Developer</span> </p>
+        </div>
+     </div>
+  </div>
+  <!-- About section -->
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" alt="user-image">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> Enthusiastic bachelor's graduate with basic knowledge in coding and design.<br><br>
+                        Proficient in <b>HTML, CSS, Sass, Bootstrap, Tailwind CSS, JavaScript, JQuery, React18(Redux,Formik,Yup), Node.js, Express.js, Mongodb.</b>
+                        <br><br>
+                        Ability to learn new softwares and technologies quickly.
+                        Capability to work in teams by providing valuable support.
+                    </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Designing Responsive Web Applications.</li>
+                        <li><span>Web Technologies</span><br>HTML, &nbsp;CSS, &nbsp;Sass, &nbsp;JavaScript, &nbsp;JQuery, &nbsp;BootStarp, &nbsp;Tailwind Css, &nbsp;React18 (Redux, Formik, yup), &nbsp;Node.js, &nbsp;Express.js, &nbsp;Mongodb.</li>
+                        <li><span>Programming languages</span><br>C language, &nbsp;Core java.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>01/2024 - Current
+                        </span><br>Software - Trainee<br><b>Affworld Technologies private limited</b><br>
+                            <p style="font-size: 13px;">Techno Hub,Sansthan Path, Jhalana Gram,<br> Malviya Nagar, Jaipur, Rajasthan 302017</p></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Full Stack Web Development
+                            </span><br>NareshIT Technologies, Hyderabad, Telangana <br>10/2022 - 12/2023</li>
+                        <li><span>B.E. Bachelor of Engineering (IT)
+                            </span><br>Sipna College Of Engineering And Technology, Amravati <br>08/2018 - 08/2022</li>
+                        <li><span>HSC</span><br>Waghamaydevi Adiwasi High School, Rui(Gosta)
+                            <br>05/2016 - 02/2018</li>
+                        <li><span>SSC</span><br>J.C. High School, Karanja (lad)<br> 03/2016</li>
+                    </ul>
+                </div>
+
+              
+            </div>
+        </div>
+    </div>
+  </div>  
+
+<!-- services -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>UI/UX</h2>
+                <p>I specialize in designing web pages with responsive interfaces, leveraging advanced libraries such as Bootstrap, Tailwind CSS, and other complementary frameworks.</p>
+                
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Web Development</h2>
+                <p>Crafting web applications from scratch harnessing the advanced capabilities of React 18, integrating tools such as React-Redux, Redux-Toolkit, alongside libraries like Formik and Yup.</p>
+            </div>
+            <div>
+                <i class="fas fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Designing responsive web applications with support for web, tablet, and mobile views through the implementation of media queries.</p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- portfolio -->
+
+<div id="portfolio">
+     <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="project1">
+                <div class="layer">
+                    <h3>Movie Watching Platform</h3>
+                    <p>Online Movie Watching platform Using React.js(Redux),&nbsp;Tailwind Css,&nbsp;JS,&nbsp;Rest Api, &nbsp;and other resources</p>
+                    <a href="https://movix-app-seven-wine.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="project2">
+                <div class="layer">
+                    <h3>Plant Selling Platform Dashboard</h3>
+                    <p>Only UI Interface Created by using HTML, Sass, JS And Other Resources.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="project3">
+                <div class="layer">
+                    <h3>BMI Calculator</h3>
+                    <p>Website (Using Html,&nbsp;CSS and JavaScript) to calculat Body Mass Index (BMI).</p>
+                    <a href="https://shivdhage-143.github.io/BMI_Calculator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+     </div>
+</div>
+
+<!-- contact form -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>dhageshiv473@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9373675785</p>
+                <p><i class="fa-solid fa-home"></i>At post Dhanaj [BK] <br>Tq. Karanja (lad) Dis. Washim <br>Maharashtra, Pincode- 444110</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/shiv-dhage-843816222"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com//ShivDhage-143"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/_shiv_dhage_13/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/Shiv Dhage"><i class="fa fa-facebook"></i></a>
+                    <a href="tel:+91 9373675785"><i class="fa fa-square-phone"></i></a>
+                </div>
+                
+                <a class="btn btn2 btn-primary btn-lg" href="pdf/Shiv_Dhage_Resume.pdf" download>Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="" name="submit-to-google-sheet">
+                    
+                    <input type="text" name="Name" id="name" placeholder="Your Name" required>
+                    <input type="email" name="Email"  placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" id="message" placeholder="Your Massege"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ ShivDhage-2024</p>
+    </div>
+</div>
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";   
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";   
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyFsZ48Puuyi2Dam-hUD6KwGEpxX0e_pHHaroi6ElBsV5veTjnJBQIz_OHqYj0gxEDFYg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },4000)
+            from.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html> 
